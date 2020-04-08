@@ -1,0 +1,17 @@
+Hello! And welcome to 2 minute programming.
+
+Today I'm gonna talk to you about Dependency Injection - something that's nowhere near as hard as it sounds.
+
+So I think the first thing we need to talk about is what dependencies are. So, in dependency injection, dependencies are objects that you need to use in your class and injection simply means passing those dependencies into your class.
+
+There are different ways of injection dependencies into your classes, but the most common way is through the constructor of your class.
+
+So here's my constructor method which will bring dependencies into the ProductRepository as class properties so we can use them throughout the class. Rather than instantiating them within my class, I'll inject them when ProductRepository is itself instantiated.
+
+The main advantage of using dependency injection is that it encourages modular programming. In conjunction with interfaces - you can treat your classes as "black boxes" where you can change the dependencies and know that nothing will break! This is great as your code will start to feel more like Lego and less like spaghetti. There are many other benefits too. Testing becomes easier, refactoring becomes easier and re-using code is easier. Life for the coder who uses dependency injection is far easier.
+
+For me personally, dependency injection has improved my code quality no end and it's certainly worth implementing.
+
+That about wraps it up for this video, but but be sure to check out the excellent resources in the video description.
+
+Thanks for watching. If you found this video useful, please give it the thumbs up, subscribe and stick the bell on.
